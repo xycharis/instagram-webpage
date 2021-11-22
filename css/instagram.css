@@ -1,0 +1,165 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+)
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    width: 90%;
+    height: 1000px;
+}
+.form{
+    background-color: white;
+    width: 350px;
+    height: 370px;
+    border:1px solid rgba(var(--b6a,219,219,219),1);
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.instagram{
+  margin: 10px 20px 0px ;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.ig{
+    height: 60px;
+    width: 80%;
+}
+.action{
+    margin: 0px 10px 5px;
+   padding: 20px;
+}
+input{
+    width: 80%;
+    padding: 10px 41px 10px 10px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: whitesmoke;
+    margin: 3px auto;
+    border-radius: 0.2rem;
+
+}
+button{
+    width: 98%;
+    background-color: rgb(117, 170, 231);
+    color: white;
+    margin: 8px auto 0 ;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+.or{
+  text-align: center;
+  margin: 0 auto 30px;
+  font-size: 13px;
+font-weight: 600;
+color: rgba(var(--f52,142,142,142),1);
+
+}
+.menu a{
+  text-decoration: none;
+  
+}
+.with{
+  font-size: 15px;
+  font-weight: 600;
+    color: #385185;
+   display: flex;
+   /* justify-content: center; */
+}
+.logo{
+    
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat; 
+    display: inline;  
+}
+.logs{
+    margin-right: 8px;
+    
+}
+.join{
+    display: flex;
+    justify-content: center;
+}
+.forgot{
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.dont{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 65px;
+    
+    border:1px solid rgba(var(--b6a,219,219,219),1);
+  
+
+}
+.sign{
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+    
+}
+.app{
+    text-align: center;
+    margin-top: 20px;
+}
+.last{
+    width: 40%;
+    height: 40px;
+    
+}
+.las{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.every{
+    display: flex;
+    justify-content: center;
+   
+    margin: 50px auto 30px;
+}
+.meta{
+    text-align: center;
+}
+.beauty{
+    text-align: center;
+}
+.english{
+    text-align: center;
+}
+.last-margin{
+    margin-top: 0px;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+.ip{
+    width: 454px;
+    height: 624px;
+}
+@media( max-width:900px){
+    menu-item{
+        font-size: 16px;
+    }
+}
+
